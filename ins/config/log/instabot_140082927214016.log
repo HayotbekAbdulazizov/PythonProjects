@@ -1,0 +1,10 @@
+2021-09-29 05:18:57,684 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2021-09-29 05:18:57,684 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from /home/hayotbek/.local/lib/python3.8/site-packages/instabot/bot/bot.py
+2021-09-29 05:18:57,685 - instabot version: 0.117.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2021-09-29 05:19:01,226 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>
+2021-09-29 05:19:01,633 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2021-09-29 05:19:03,059 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2021-09-29 05:19:03,494 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2021-09-29 05:21:13,854 - instabot version: 0.117.0 (api) - WARNING - HTTPSConnectionPool(host='i.instagram.com', port=443): Max retries exceeded with url: /api/v1/accounts/login/ (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f67978fad30>: Failed to establish a new connection: [Errno 101] Network is unreachable'))
+2021-09-29 05:21:13,855 - instabot version: 0.117.0 (api) - ERROR - Failed to login go to instagram and change your password
+2021-09-29 05:21:13,855 - instabot version: 0.117.0 (api) - INFO - Username or password is incorrect.
