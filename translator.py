@@ -8,5 +8,4 @@ print(result.origin)
 print(result.text)
 print(result.pronunciation)
 
-# nothing here
 
