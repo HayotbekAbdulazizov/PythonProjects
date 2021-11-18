@@ -1,2 +1,2 @@
 # PythonProjects
- python projects from beginner to pro 
+ simple python projects and useful algorithms from beginner to pro
