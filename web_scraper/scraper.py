@@ -80,7 +80,6 @@ def schedule_api():
         print(view, 'views')
         print(body[:20], 'Body Code')
         print(main_img, 'Main IMG')
-        print('all')
         print('=================================================================')
 
 
