@@ -21,6 +21,7 @@ def separator(item=None ,*items):
     return [strings, integers]
 
 
+
 # REQUESTS 
 def requester(url, method, *args, **kwargs):
     import requests
