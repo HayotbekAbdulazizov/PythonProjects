@@ -51,3 +51,13 @@ time_ = int(hour) + 7
 if time_ > 24:
     time_ -= 24
 print(f"{time_}:{minute}")
+
+
+
+
+
+# wordfinder find word with index
+def finder(*args):
+    ls_of_letters = ['','a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+    return ''.join(ls_of_letters[x] for x in args)
+# print(finder(1,19,1,13))
