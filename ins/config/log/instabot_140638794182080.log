@@ -1,0 +1,42 @@
+2021-10-01 07:59:09,745 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2021-10-01 07:59:09,745 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from /home/hayotbek/.local/lib/python3.8/site-packages/instabot/bot/bot.py
+2021-10-01 07:59:09,746 - instabot version: 0.117.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2021-10-01 07:59:10,383 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>
+2021-10-01 07:59:10,884 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2021-10-01 07:59:11,386 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2021-10-01 07:59:11,898 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2021-10-01 07:59:14,858 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [200]>
+2021-10-01 07:59:14,859 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as 'hayotbekabdulazizov200'!
+2021-10-01 07:59:14,860 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: True
+2021-10-01 07:59:15,482 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2021-10-01 07:59:16,035 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2021-10-01 07:59:16,536 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: zr/token/result/?device_id=android-6d7e0901182a48a6&token_hash=&custom_device_id=android-6d7e0901182a48a6&fetch_reason=token_expired returned response: <Response [200]>
+2021-10-01 07:59:17,065 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: multiple_accounts/get_account_family/ returned response: <Response [200]>
+2021-10-01 07:59:17,571 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2021-10-01 07:59:18,715 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: igtv/browse_feed/?prefetch=1 returned response: <Response [200]>
+2021-10-01 07:59:19,235 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: creatives/ar_class/ returned response: <Response [200]>
+2021-10-01 07:59:20,601 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2021-10-01 07:59:23,696 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2021-10-01 07:59:24,191 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/blocked/ returned response: <Response [200]>
+2021-10-01 07:59:25,688 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: news/inbox/ returned response: <Response [200]>
+2021-10-01 07:59:26,178 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: loom/fetch_config/ returned response: <Response [200]>
+2021-10-01 07:59:27,820 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: scores/bootstrap/users/?surfaces=["autocomplete_user_list","coefficient_besties_list_ranking","coefficient_rank_recipient_user_suggestion","coefficient_ios_section_test_bootstrap_ranking","coefficient_direct_recipients_ranking_variant_2"] returned response: <Response [200]>
+2021-10-01 07:59:28,390 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: business/eligibility/get_monetization_products_eligibility_data/?product_types=branded_content returned response: <Response [200]>
+2021-10-01 07:59:28,899 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: business/branded_content/should_require_professional_account/ returned response: <Response [200]>
+2021-10-01 07:59:29,593 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: linked_accounts/get_linkage_status/ returned response: <Response [200]>
+2021-10-01 07:59:30,110 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: locations/request_country/ returned response: <Response [200]>
+2021-10-01 07:59:30,603 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: qp/get_cooldowns/?signed_body=signed_body=4b9c516a5410a3bc128e09c6104a7f042146b9c2023870560c63a43a7f66781c.4&ig_sig_key_version=4&ig_sig_key_version=4 returned response: <Response [200]>
+2021-10-01 07:59:31,130 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/arlink_download_info/?version_override=2.2.1 returned response: <Response [200]>
+2021-10-01 07:59:32,153 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/35226043385/info/ returned response: <Response [200]>
+2021-10-01 07:59:32,893 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: direct_v2/get_presence/ returned response: <Response [200]>
+2021-10-01 07:59:34,620 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: direct_v2/inbox/?visual_message_return_type=unseen&thread_message_limit=10&persistentBadging=true&limit=20 returned response: <Response [200]>
+2021-10-01 07:59:35,147 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: direct_v2/inbox/?visual_message_return_type=unseen&persistentBadging=true&limit=0 returned response: <Response [200]>
+2021-10-01 07:59:37,865 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: discover/topical_explore/?is_prefetch=true&omit_cover_media=true&use_sectional_payload=true&timezone_offset=0&session_id=dfd6e1aa-8d07-488b-8c7d-fba4eb87eb6b&include_fixed_destinations=true returned response: <Response [200]>
+2021-10-01 07:59:38,377 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: notifications/badge/ returned response: <Response [200]>
+2021-10-01 07:59:39,162 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qp/batch_fetch/ returned response: <Response [200]>
+2021-10-01 07:59:39,164 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: /home/hayotbek/DARSLAR/PYTHON/ins/config/hayotbekabdulazizov200.checkpoint
+2021-10-01 08:00:00,913 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2021-10-01 08:00:01,428 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2021-10-01 08:00:01,428 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'img.jpg' is uploaded.
+2021-10-01 08:00:01,428 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: /home/hayotbek/DARSLAR/PYTHON/ins/config/hayotbekabdulazizov200.checkpoint
+2021-10-01 08:00:01,428 - instabot version: 0.117.0 (bot) - INFO - Total requests: 33
