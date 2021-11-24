@@ -1,0 +1,4 @@
+Requirement already satisfied: twilio in /home/hayotbek/.local/lib/python3.8/site-packages (7.2.0)
+Requirement already satisfied: pytz in /usr/lib/python3/dist-packages (from twilio) (2019.3)
+Requirement already satisfied: requests>=2.0.0 in /usr/lib/python3/dist-packages (from twilio) (2.22.0)
+Requirement already satisfied: PyJWT<3.0.0,>=2.0.0 in /home/hayotbek/.local/lib/python3.8/site-packages (from twilio) (2.3.0)
