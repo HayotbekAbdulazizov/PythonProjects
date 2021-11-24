@@ -10,7 +10,7 @@ import requests
 url = 'http://localhost:8080/api/category/'
 r = requests.post(url, data={'status':400})
 
-request.get('instagram.com')
+request.get('https://instagram.com')
 
 
 
