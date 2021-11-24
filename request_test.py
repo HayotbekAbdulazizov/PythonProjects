@@ -2,7 +2,8 @@ import requests
 from bs4 import BeautifulSoup
 
 def schedule_api():
-    r = requests.get("https://www.instagram.com/militsiya_102/")
+    # r = requests.get("https://www.instagram.com/militsiya_102/")
+    r = requests.get("https://www.instagram.com/p/CWplJV4jWlD/")
     soup = BeautifulSoup(r.text, 'html.parser')
         # view = single_soup.find("div", {"class": "view"}).text
         # title = single_soup.find('div', {"class":"single-header__title"}).text	
