@@ -180,11 +180,25 @@ key = 'APIKEY' #insert apikey in https://tech.yandex.com/translate/
 
 
 
-from gtrans.gtrans import Gtran
-translator = Gtran()
-text = "こんにちは"
-out = translator.translate(text=text)
-print(out)
+# from gtrans.gtrans import Gtran
+# translator = Gtran()
+# text = "こんにちは"
+# out = translator.translate(text=text)
+# print(out)
 
 
 
+
+# from google_trans_new import google_translator  
+
+# translator = google_translator()  
+# translate_text = translator.translate('hello',lang_tgt='ru')  
+# print(translate_text)
+
+
+
+
+
+from etranslate import translate
+tras = translate("mening ismim hayotbek")  # 'Hello world!'
+print(tras)
