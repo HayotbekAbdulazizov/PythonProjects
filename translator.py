@@ -62,20 +62,7 @@ key = 'APIKEY' #insert apikey in https://tech.yandex.com/translate/
 
 
 
-import requests
-req = requests.post(
-    'https://libretranslate.com/translate',
-    { 
-        'body':{
-            'q':'hello',
-            'source':'en',
-            'target':'ru'
-        },
-                                                })
-
-print(req)
-print(req.text)
-
+#
 
 
 # const res = await fetch("https://libretranslate.com/translate", {
@@ -89,4 +76,115 @@ print(req.text)
 # });
 
 # console.log(await res.json());
+
+
+
+
+
+
+# from translation import (set_default_translation, set_default_language,
+#     set_default_proxies, get, ConnectError)
+
+# set_default_translation('google')
+# set_default_language('auto', 'zh-CN')
+# set_default_proxies({'http': 'http://127.0.0.1:1080'})
+# try:
+#     print(get('hello world!'))
+# except ConnectError:
+#     print('Invaild proxy')
+
+
+# from translation import baidu, google, youdao, iciba
+
+
+# print(google('hello world!', dst = 'ru-RU'))
+
+
+
+
+
+
+# from azure_translator import Translator
+
+# t = Translator('your_api_key')
+# t.translate('Je suis fatigué')
+# 'I am tired'
+
+# >>> t.translate("Hello", to='fr')
+# 'Bonjour'
+
+# >>> t.translate("Aujourd'hui", source_language='fr')
+# 'Today'
+# ``` 
+
+
+
+# from translator import Translator
+# translator = Translator()
+
+# # translator.load_model(MODEL_PATH)
+# translator.translate("What is your name?")  
+# आपका नाम क्या है?
+
+
+# from translator import GoogleTranslator
+
+# # use google
+# translator = GoogleTranslator()
+# print(translator.translate('我是中国人', dest='en'))
+
+# # use baidu api
+# translator = BaiduTranslator(appid, appkey)
+# print(translator.translate('我是中国人', dest='en'))
+
+# # use tencent api
+# translator = TencentTranslator(appid, appkey)
+# print(translator.translate('我是中国人', dest='en'))
+
+# # throttle api call frequency.
+# translate_func = throttle(seconds=1)(translator.translate) # call api every second
+# for i in range(100):
+#   translate_func('我是中国人', dest='en')
+
+
+
+
+
+
+
+
+
+
+# from deep_translator import GoogleTranslator
+
+# proxies_example = {
+#     "https": "34.195.196.27:8080",
+#     "http": "34.195.196.27:8080"
+# }
+# translated = GoogleTranslator(source='auto', target='de', proxies=proxies_example).translate("keep it up, you are awesome")  # output -> Weiter so, du bist großartig
+
+
+
+
+
+
+
+# DId not tested
+# from google_translator_simplified import Translator
+
+#  #'Tekst do tłumaczenia '
+# Translator.get_translation('de', 'tekst do przetłumaczenia', 'pl') #'Text für die Übersetzung '
+# Translator.get_translation('pl', 'text for translation') #'Tekst do tłumaczenia '
+# Translator.get_translation('de', 'tekst do przetłumaczenia') #'Text für die Übersetzung '
+# print(Translator.get_translation('pl', 'text for translation', 'en'))
+
+
+
+from gtrans.gtrans import Gtran
+translator = Gtran()
+text = "こんにちは"
+out = translator.translate(text=text)
+print(out)
+
+
 

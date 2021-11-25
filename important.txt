@@ -1,0 +1,2 @@
+https://pypi.org/project/wagtail-localize-git/
+for wagtail model translation
