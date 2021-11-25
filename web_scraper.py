@@ -89,9 +89,12 @@ def update_posts():
 		
 		print('VIEW',view)
 		# print('TITLE', translator.translate(latin_title, dest='en', src='uz'))
-		latin_title = to_latin(title)
-		print('TITLE', translator.translate(latin_title, src='uz', dest='ru').text)
-		print('POST_URL', post_url)
+		# latin_title = to_latin(title)
+		print('TITLE', translator.translate(to_latin(title), src='uz', dest='ru').text)
+		print('TITLE', translator.translate(to_latin(title), src='uz', dest='en').text)
+		# print('POST_URL', post_url)
+		# print('POST_URL', translator.translate(post_url, src='uz', dest='ru').text)
+		# print('POST_URL', translator.translate(post_url, src='uz', dest='en').text)
 		print('HREF',href)
 		for x in main_img_ls:
 			print('Image',x)
