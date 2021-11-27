@@ -200,5 +200,5 @@ key = 'APIKEY' #insert apikey in https://tech.yandex.com/translate/
 
 
 from etranslate import translate
-tras = translate("mening ismim hayotbek")  # 'Hello world!'
+tras = translate("mening ismim hayotbek", to='en')  # 'Hello world!'
 print(tras)
