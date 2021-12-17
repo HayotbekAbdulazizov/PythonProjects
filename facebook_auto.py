@@ -22,7 +22,6 @@ asafb.put_object("me", "feed", message="<video src='shoton.mp4'> </video> ")
 
 
 
-
 # DOCS
 # pip install facebook-sdk
 # import facebook as fb
