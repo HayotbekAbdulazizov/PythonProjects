@@ -32,7 +32,6 @@ key = 'APIKEY' #insert apikey in https://tech.yandex.com/translate/
 
 
 
-
 # import requests
 
 # url = "https://sa-translate.p.rapidapi.com/translate/html/text"
