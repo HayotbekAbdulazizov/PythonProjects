@@ -64,10 +64,10 @@ import os
 from twilio.rest import Client
 
 
-# Find your Account SID and Auth Token at twilio.com/console
+# Find your Accouhonnt SID and Auth Token at twilio.com/console
 # and set the environment variables. See http://twil.io/secure
-account_sid = os.environ['AC7aa8bffd8a84b62268925d7bf61463ec']
-auth_token = os.environ['6101ed8df69c7df4d581cd0b06374fa7']
+account_sid = 'ACabc07fd87667af0f9f1d3621754c6056'
+auth_token = '96420ab5a1a6deba37b686b9332b190e'
 client = Client(account_sid, auth_token)
 
 message = client.messages \
