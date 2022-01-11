@@ -47,6 +47,8 @@ import time
 #     time.sleep(2)
 
 
+
+# for kun.uz
 def schedule_api():
     r = requests.get("https://kun.uz/news/list")
     soup = BeautifulSoup(r.text, 'html.parser')

@@ -100,42 +100,42 @@
 
 # python script for sending message update
 
-import time
-from time import sleep
-from sinchsms import SinchSMS
+# import time
+# from time import sleep
+# from sinchsms import SinchSMS
 
-# function for sending SMS
-def sendSMS():
+# # function for sending SMS
+# def sendSMS():
 
-	# enter all the details
-	# get app_key and app_secret by registering
-	# a app on sinchSMS
-	# number = 'your_mobile_number'
-	# number = '+447520650942'
-	number = '+998916020335'
-	app_key = '6b08ec28-fb1c-45ed-b832-d9351cb36fe6'
-	app_secret = 'RfLi4a1SE0ijcu5Bt8U5UA=='
+# 	# enter all the details
+# 	# get app_key and app_secret by registering
+# 	# a app on sinchSMS
+# 	# number = 'your_mobile_number'
+# 	# number = '+447520650942'
+# 	number = '+998916020335'
+# 	app_key = '6b08ec28-fb1c-45ed-b832-d9351cb36fe6'
+# 	app_secret = 'RfLi4a1SE0ijcu5Bt8U5UA=='
 
-	# enter the message to be sent
-	message = 'Hello Message!!!'
+# 	# enter the message to be sent
+# 	message = 'Hello Message!!!'
 
-	client = SinchSMS(app_key, app_secret)
-	print("Sending '%s' to %s" % (message, number))
+# 	client = SinchSMS(app_key, app_secret)
+# 	print("Sending '%s' to %s" % (message, number))
 
-	response = client.send_message(number, message)
-	message_id = response['messageId']
-	response = client.check_status(message_id)
+# 	response = client.send_message(number, message)
+# 	message_id = response['messageId']
+# 	response = client.check_status(message_id)
 
-	# keep trying unless the status returned is Successful
-	while response['status'] != 'Successful':
-		print(response['status'])
-		time.sleep(1)
-		response = client.check_status(message_id)
+# 	# keep trying unless the status returned is Successful
+# 	while response['status'] != 'Successful':
+# 		print(response['status'])
+# 		time.sleep(1)
+# 		response = client.check_status(message_id)
 
-	print(response['status'])
+# 	print(response['status'])
 
-if __name__ == "__main__":
-	sendSMS()
+# if __name__ == "__main__":
+# 	sendSMS()
 
 
     # id 5b7f8d65ed874228a0070971d3904aa6
@@ -158,3 +158,19 @@ if __name__ == "__main__":
     # KEY
     # SHA256:HbW3g8zUjNSksFbqTiUWPWg2Bq1x8xdGUrliXFzSnUw
     # twlio secter xDW3YUB3_NwmTsKNB-qEiXGDZ4PLGmlBDraIFq4J
+
+
+
+
+
+
+
+
+
+from crontab import CronTab
+
+cron = CronTab()
+job = cron.new(command='python example1.py')
+job.minute.every(1)
+
+cron.write()
